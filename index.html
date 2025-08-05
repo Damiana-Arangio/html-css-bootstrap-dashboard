@@ -13,6 +13,10 @@
         <!-- Link Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        
+        <!-- Icons Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
@@ -31,7 +35,8 @@
         <!-- INTESTAZIONE PAGINA  -->
         <!-- -------------------- -->
         <header>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark"">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
                     <div class="container-fluid">
 
                         <!-- Logo -->
@@ -60,10 +65,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </nav>
-            </nav>
 
+                    </div>
+
+                </nav>
         </header>
 
         <!-- -------------------- -->
@@ -72,8 +77,266 @@
         <main>
             <div class="container">
 
+                <!-- TITOLO E BOTTONE -->
+                <div class="d-flex justify-content-between my-4">
+                        <h1 class=" fs-4 fw-bolder"> Catalogo Libri </h1>
+                        <button type="button" class="btn btn-primary"> Aggiungi Libro </button>
+                </div>
+
+                <!-- TABELLA -->
+                <table class="table table-striped table-hover">
+
+                    <!-- Intestazione Tabella -->
+                    <thead>
+                        <tr>
+                            <th scope="col">Titolo</th>
+                            <th scope="col">Data Prestito</th>
+                            <th scope="col">Stato</th>
+                            <th scope="col">Azioni</th>
+                        </tr>
+                    </thead>
+
+                    <!-- Contenuto Principale Tabella -->
+                    <tbody>
+
+                        <!-- Riga 1 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> I Pilastri della terra </th>
+                            <td> - </td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td> 
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div> 
+                            </td>
+                        </tr>
+
+                        <!-- Riga 2 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> I promessi sposi </th>
+                            <td> - </td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Riga 3 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Il signore degli anelli </th>
+                            <td>18/10/2023</td>
+                            <td>
+                                <span class="badge bg-warning"> In prestito </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+
+                        <!-- Riga 4 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Harry Potter e la pietra filosofale</th>
+                            <td>-</td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 5 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Il codice Da Vinci </th>
+                            <td>-</td>
+                            <td>
+                                <span class="badge bg-danger"> Non disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 6 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Shining </th>
+                            <td>-</td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 7 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> La divina commedia </th>
+                            <td>21/9/2023</td>
+                            <td>
+                                <span class="badge bg-warning"> In prestito </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 8 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Il trono di spade </th>
+                            <td> - </td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 9 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Il mondo di Sofia </th>
+                            <td> - </td>
+                            <td><span class="badge bg-danger"> Non disponibile </span></td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 10 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Le cronache di Narnia: il leone, la strega e l'armadio </th>
+                            <td> 25/07/2023 </td>
+                            <td>
+                                <span class="badge bg-warning"> In prestito </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 11 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> Il piccolo principe </th>
+                            <td> - </td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+                        </tr>
+
+                        <!-- Riga 12 -->
+                        <tr>
+                            <th scope="row" class="fw-normal"> La storia infinita </th>
+                            <td> - </td>
+                            <td>
+                                <span class="badge bg-success"> Disponibile </span>
+                            </td>
+                            <td>
+                                <div class="btn-group me-2 btn-group-sm" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>                            
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+                
             </div>
+
         </main>
 
     </body>
+
 </html>
+
+
+
+
