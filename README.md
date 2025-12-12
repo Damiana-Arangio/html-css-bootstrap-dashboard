@@ -1,27 +1,31 @@
-# Bootstrap Dashboard
+<p align="center">
+  <img src="img/boolean-logo.png" alt="Boolean logo" width="35">
+</p>
 
-Esercizio svolto durante il corso Boolean per esercitarmi nella creazione di una dashboard responsive con Bootstrap 5.
+<h1 align="center">Bootstrap Dashboard</h1>
 
-L’esercizio è stato sviluppato in due giornate:
-1. realizzazione del layout principale della dashboard;
-2. aggiunta di una seconda pagina con un form, sempre utilizzando il grid system e i componenti di Bootstrap.
+Dashboard responsive realizzata con Bootstrap 5, composta da una pagina principale
+di amministrazione e da una seconda pagina con form strutturato.
 
 ## Obiettivi
 
-- Ricreare il layout di una dashboard (pannello di controllo di un’applicazione web) seguendo gli screenshot forniti.
-- Utilizzare la griglia di Bootstrap 5 per ottenere un layout responsive su desktop, tablet e mobile.
-- Ridurre al minimo il CSS personalizzato, sfruttando componenti, utility class e helper di Bootstrap.
+- Ricreare il layout di una dashboard (pannello di controllo di un’applicazione web)
+  seguendo gli screenshot forniti
+- Utilizzare la griglia di Bootstrap 5 per ottenere un layout responsive
+- Ridurre al minimo il CSS personalizzato, sfruttando componenti, utility class e helper di Bootstrap
 - Aggiungere una pagina con form strutturato usando:
-  - tag HTML per form e campi di input;
-  - classi Bootstrap per impaginazione, spaziature e allineamenti.
+  - tag HTML per form e campi di input
+  - classi Bootstrap per impaginazione, spaziature e allineamenti
 
 ## Pagine
 
 - **Dashboard**  
-  Panoramica con intestazione, barra laterale di navigazione e contenuti principali organizzati in griglia.
+  Panoramica con intestazione, barra laterale di navigazione e contenuti principali
+  organizzati in griglia.
 
 - **Pagina form**  
-  Form strutturato con Bootstrap (grid system, `row`, `col-*`, `form-control`, ecc.) e campi disposti in modo responsive.
+  Form strutturato con il grid system di Bootstrap (`row`, `col-*`) e classi come
+  `form-control` per gestire campi, etichette e spaziature in modo responsive.
 
 ## Anteprima
 
@@ -39,6 +43,6 @@ L’esercizio è stato sviluppato in due giornate:
 
 ## Tecnologie utilizzate
 
-- HTML  
-- CSS  
+- HTML5  
+- CSS3  
 - Bootstrap 5
